@@ -7,20 +7,23 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="js/street.js"></script>
+	<script src="js/app.js"></script>
 </head>
 <body>
 	<div class="main">
 		<div class="ryu">
-			<div class="text"><h3>Click Mouse to fire hadouken</h3>
-			<h4>Press X for cool pose</h4></div>
-			<div class="ryu-still"></div>
-			<div class="ryu-ready"></div>
-			<div class="ryu-throwing"></div>
-			<div class="ryu-cool"></div>
+			<div class="hadouken"></div>
+			<div class="ryu-still ryu-hide"></div>
+			<div class="ryu-ready ryu-hide"></div>
+			<div class="ryu-throwing ryu-hide"></div>
+			<div class="ryu-cool ryu-hide"></div>
+			<audio id="hadouken-sound" src="sound/hadouken.mp3">
 		</div>
-		<div class="hadouken"></div>
+		<ul class="Steps">
+			<li>Hover over Ryu to get ryu ready</li>
+			<li>Click Mouse to fire hadouken</li>
+			<li>Press X for cool pose</li>
+		</ul>
 	</div>
-	<audio id="hadouken-sound" src="sound/hadouken.mp3">
 </body>
 </html>
