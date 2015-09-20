@@ -54,18 +54,18 @@ body {
   left: 450px;
   float: left;
 }
-* {
-  outline: red 1px solid;
-}
 .Steps{
 	float: left;
 	top: 80px;
-	left: 800px;
+	left: 965px;
 	z-index: 10px;
 	position: absolute;
 }
 li {
-	font-family: sans-serif;
+	font-family: Impact, Charcoal, sans-serif;
 	font-size: 24px;
 	font-weight: 2px;
+  letter-spacing: initial;
+  display: flex;
+  font-style: italic;
 }
